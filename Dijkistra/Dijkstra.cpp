@@ -187,6 +187,7 @@ int main()
 	}
 	else
 	{
+
 		dijkstra(graphe, distances, visited, predecesseurs, dimmension, src - 65);
 		resultats(distances, predecesseurs, dimmension);
 		cheminASuivre(src-65, dst-65, predecesseurs);
